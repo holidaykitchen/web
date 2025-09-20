@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  color: #001f3f !important;
+  color: #001f3f !important; /* Dark blue text for all inside header */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,6 +22,7 @@ header {
   border-bottom: 2px solid #ff6f91;
   flex-wrap: wrap;
 }
+
 
 header h1 {
   color: #ff6f91;
@@ -172,6 +173,7 @@ a {
   color: #ffcc00;
   font-size: 1.2em;
 }
+
 
 
 
