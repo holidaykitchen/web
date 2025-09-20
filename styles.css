@@ -25,7 +25,7 @@ header {
 
 
 header h1 {
-  color: #001f3f;
+  color: #001f3f !important;
   font-weight: 700;
   font-size: 2rem;
 }
@@ -54,7 +54,7 @@ main {
 }
 
 h2 {
-  color: #001f3f;
+  color: #001f3f !important;
   margin-bottom: 0.5rem;
 }
 
@@ -173,6 +173,7 @@ a {
   color: #ffcc00;
   font-size: 1.2em;
 }
+
 
 
 
