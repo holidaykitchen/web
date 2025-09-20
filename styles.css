@@ -6,11 +6,13 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #FFDEE9 0%, #B5FFFC 100%);
-  color: #333;
-  line-height: 1.6;
-  padding: 1rem 2rem;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: white;
+  background-image: radial-gradient(circle, #001f3f 5%, transparent 6%), 
+                    radial-gradient(circle, #ff4136 5%, transparent 6%);
+  background-position: 0 0, 20px 20px;
+  background-size: 40px 40px;
 }
 
 header {
@@ -171,6 +173,7 @@ a {
   color: #ffcc00;
   font-size: 1.2em;
 }
+
 
 
 
