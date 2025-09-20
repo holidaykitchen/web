@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  color: #001f3f; /* dark blue text */
+  color: #001f3f !important;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -172,6 +172,7 @@ a {
   color: #ffcc00;
   font-size: 1.2em;
 }
+
 
 
 
