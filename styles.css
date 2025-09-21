@@ -21,20 +21,12 @@ body {
     linear-gradient(to bottom right, white, lightblue);
   background-size: 100% 100%, 50px 50px;  /* Adjust stripe size */
   min-height: 100vh;
-  color: #222;  /* Optional: Adjust for readability */
-}
-
-/* Blue text with text stroke */
-h1, h2, p {
-  color: #00f;  /* Blue text color */
-  -webkit-text-stroke: 2px #fff; /* White outline for readability */
-  text-stroke: 2px #fff; /* Text stroke for modern browsers */
-  text-shadow: none; /* Remove the previous glow effect */
+  color: #222;  /* Default text color */
 }
 
 /* Header Styling */
 header {
-  color: #001f3f !important; /* Dark blue text for all inside header */
+  color: #ff6f91;  /* A strong color that contrasts with the background */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,12 +36,9 @@ header {
 }
 
 header h1 {
-  color: #00f;  /* Blue text for header */
+  color: #ff6f91;  /* Strong contrasting color for header */
   font-weight: 700;
   font-size: 2rem;
-  -webkit-text-stroke: 2px #fff; /* White outline */
-  text-stroke: 2px #fff; /* Text stroke */
-  text-shadow: none; /* Remove glow */
 }
 
 /* Navigation */
@@ -61,7 +50,7 @@ nav ul {
 }
 
 nav a {
-  color: #6b4b77;
+  color: #ff6f91;  /* Contrast color for links */
   text-decoration: none;
   font-weight: 600;
   transition: 0.3s;
@@ -77,11 +66,8 @@ main {
 }
 
 h2 {
-  color: #00f;  /* Blue text for h2 */
+  color: #ff6f91;  /* Using the same color for headings */
   margin-bottom: 0.5rem;
-  -webkit-text-stroke: 2px #fff; /* White outline */
-  text-stroke: 2px #fff; /* Text stroke */
-  text-shadow: none; /* Remove previous glow effect */
 }
 
 /* Section */
@@ -108,7 +94,7 @@ blockquote {
   margin: 1rem 0;
   padding: 1rem;
   font-style: italic;
-  color: #a64d79;
+  color: #ff6f91;  /* Contrast color for blockquote text */
 }
 
 blockquote footer {
@@ -119,12 +105,12 @@ blockquote footer {
 footer {
   margin-top: 3rem;
   text-align: center;
-  color: #6b4b77;
+  color: #ff6f91;  /* Consistent contrasting color for footer */
   font-size: 0.9rem;
 }
 
 a {
-  color: #6b4b77;
+  color: #ff6f91;  /* Contrast color for anchor tags */
 }
 
 @media screen and (max-width: 600px) {
@@ -152,9 +138,7 @@ a {
 #reviews h2 {
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #00f;  /* Blue text for reviews header */
-  -webkit-text-stroke: 2px #fff; /* White outline */
-  text-stroke: 2px #fff; /* Text stroke */
+  color: #ff6f91;  /* Using contrast color for reviews header */
 }
 
 #reviews blockquote {
@@ -177,6 +161,7 @@ a {
   color: #ffcc00;
   font-size: 1.2em;
 }
+
 
 
 
