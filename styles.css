@@ -8,7 +8,15 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background: linear-gradient(to bottom right, white, light blue);
+  background-image:
+  repeating-linear-gradient(
+    45deg,               /* stripe angle */
+    darkred,             /* stripe color */
+    darkred 10px,        /* stripe thickness */
+    transparent 10px,    /* spacing after stripe */
+    transparent 20px     /* total stripe width */
+  ),
+  linear-gradient(to bottom right, white, lightblue); /* base gradient */
   min-height: 100vh;
   color: #222; /* Optional: Adjust for readability */
 }
@@ -173,6 +181,7 @@ a {
   color: #ffcc00;
   font-size: 1.2em;
 }
+
 
 
 
