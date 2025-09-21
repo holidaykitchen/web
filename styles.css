@@ -24,6 +24,11 @@ body {
   color: #222;  /* Default text color */
 }
 
+/* Ensure all main text is affected */
+h1, h2, h3, h4, h5, h6, p, li, blockquote {
+  color: #ff6f91;  /* Strong contrasting color */
+}
+
 /* Header Styling */
 header {
   color: #ff6f91;  /* A strong color that contrasts with the background */
@@ -161,6 +166,8 @@ a {
   color: #ffcc00;
   font-size: 1.2em;
 }
+
+
 
 
 
