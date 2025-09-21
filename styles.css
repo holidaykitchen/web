@@ -8,9 +8,8 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background-image: 
-    /* Base gradient only (no stripes) */
-    linear-gradient(to bottom right, white, lightblue);
+  /* Remove the stripes, only keep the gradient */
+  background-image: linear-gradient(to bottom right, white, lightblue);
   min-height: 100vh;
   color: #222; /* Default text color */
 }
@@ -157,6 +156,7 @@ a {
   color: #ffcc00;
   font-size: 1.2em;
 }
+
 
 
 
