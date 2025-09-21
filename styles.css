@@ -24,11 +24,12 @@ body {
   color: #222;  /* Optional: Adjust for readability */
 }
 
-/* Blue text with glowing effect */
+/* Blue text with text stroke */
 h1, h2, p {
   color: #00f;  /* Blue text color */
-  text-shadow: 0 0 5px #00f, 0 0 10px #00f, 0 0 15px #00f, 0 0 20px #1e90ff, 0 0 30px #1e90ff, 0 0 40px #1e90ff;
-  /* Glowing blue effect */
+  -webkit-text-stroke: 2px #fff; /* White outline for readability */
+  text-stroke: 2px #fff; /* Text stroke for modern browsers */
+  text-shadow: none; /* Remove the previous glow effect */
 }
 
 /* Header Styling */
@@ -46,8 +47,9 @@ header h1 {
   color: #00f;  /* Blue text for header */
   font-weight: 700;
   font-size: 2rem;
-  text-shadow: 0 0 5px #00f, 0 0 10px #00f, 0 0 15px #00f, 0 0 20px #1e90ff, 0 0 30px #1e90ff, 0 0 40px #1e90ff;
-  /* Blue glow for header */
+  -webkit-text-stroke: 2px #fff; /* White outline */
+  text-stroke: 2px #fff; /* Text stroke */
+  text-shadow: none; /* Remove glow */
 }
 
 /* Navigation */
@@ -77,8 +79,9 @@ main {
 h2 {
   color: #00f;  /* Blue text for h2 */
   margin-bottom: 0.5rem;
-  text-shadow: 0 0 5px #00f, 0 0 10px #00f, 0 0 15px #00f, 0 0 20px #1e90ff, 0 0 30px #1e90ff, 0 0 40px #1e90ff;
-  /* Blue glow for h2 */
+  -webkit-text-stroke: 2px #fff; /* White outline */
+  text-stroke: 2px #fff; /* Text stroke */
+  text-shadow: none; /* Remove previous glow effect */
 }
 
 /* Section */
@@ -128,7 +131,53 @@ a {
   nav ul {
     flex-direction: column;
     gap: 0.5rem;
-    align-items: flex-start
+    align-items: flex-start;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* Reviews Section */
+#reviews {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fdfdfd;
+  border-radius: 8px;
+}
+
+#reviews h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #00f;  /* Blue text for reviews header */
+  -webkit-text-stroke: 2px #fff; /* White outline */
+  text-stroke: 2px #fff; /* Text stroke */
+}
+
+#reviews blockquote {
+  background: #f3f3f3;
+  border-left: 5px solid #ff9900;
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  font-style: italic;
+}
+
+#reviews footer {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Stars Rating */
+.stars {
+  color: #ffcc00;
+  font-size: 1.2em;
+}
+
 
 
 
