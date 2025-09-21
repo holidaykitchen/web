@@ -8,7 +8,7 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background: linear-gradient(to bottom right, red, yellow);
+  background: linear-gradient(to bottom right, white, blue);
   min-height: 100vh;
   color: #222; /* Optional: Adjust for readability */
 }
@@ -173,6 +173,7 @@ a {
   color: #ffcc00;
   font-size: 1.2em;
 }
+
 
 
 
