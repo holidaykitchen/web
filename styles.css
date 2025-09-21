@@ -9,17 +9,21 @@ body {
   margin: 0;
   font-family: sans-serif;
   background-image:
-  repeating-linear-gradient(
-    45deg,               /* stripe angle */
-    darkred,             /* stripe color */
-    darkred 10px,        /* stripe thickness */
-    transparent 10px,    /* spacing after stripe */
-    transparent 20px     /* total stripe width */
-  ),
-  linear-gradient(to bottom right, white, lightblue); /* base gradient */
+    /* Stripes */
+    repeating-linear-gradient(
+      45deg,                /* Stripe angle */
+      darkred,              /* Stripe color */
+      darkred 20px,         /* Stripe thickness */
+      transparent 20px,     /* Gap after stripe */
+      transparent 40px      /* Total width of each stripe */
+    ),
+    /* Base gradient */
+    linear-gradient(to bottom right, white, lightblue);
+  background-size: 100% 100%, 50px 50px;  /* Adjust stripe size */
   min-height: 100vh;
-  color: #222; /* Optional: Adjust for readability */
+  color: #222;  /* Optional: Adjust for readability */
 }
+
 
 header {
   color: #001f3f !important; /* Dark blue text for all inside header */
@@ -181,6 +185,7 @@ a {
   color: #ffcc00;
   font-size: 1.2em;
 }
+
 
 
 
