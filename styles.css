@@ -8,20 +8,11 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background-image:
-    /* Stripes */
-    repeating-linear-gradient(
-      45deg,                /* Stripe angle */
-      darkred,              /* Stripe color */
-      darkred 20px,         /* Stripe thickness */
-      transparent 20px,     /* Gap after stripe */
-      transparent 40px      /* Total width of each stripe */
-    ),
-    /* Base gradient */
+  background-image: 
+    /* Base gradient only (no stripes) */
     linear-gradient(to bottom right, white, lightblue);
-  background-size: 100% 100%, 50px 50px;  /* Adjust stripe size */
   min-height: 100vh;
-  color: #222 !important;  /* Default text color */
+  color: #222; /* Default text color */
 }
 
 /* Ensure all text elements have the correct color */
@@ -31,7 +22,7 @@ h1, h2, h3, h4, h5, h6, p, li, blockquote, footer {
 
 /* Header Styling */
 header {
-  color: #ff6f91 !important;  /* A strong color that contrasts with the background */
+  color: #ff6f91 !important;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,7 +32,7 @@ header {
 }
 
 header h1 {
-  color: #ff6f91 !important;  /* Strong contrasting color for header */
+  color: #ff6f91 !important;
   font-weight: 700;
   font-size: 2rem;
 }
@@ -55,7 +46,7 @@ nav ul {
 }
 
 nav a {
-  color: #ff6f91 !important;  /* Contrast color for links */
+  color: #ff6f91 !important;
   text-decoration: none;
   font-weight: 600;
   transition: 0.3s;
@@ -71,7 +62,7 @@ main {
 }
 
 h2 {
-  color: #ff6f91 !important;  /* Using the same color for headings */
+  color: #ff6f91 !important;
   margin-bottom: 0.5rem;
 }
 
@@ -99,7 +90,7 @@ blockquote {
   margin: 1rem 0;
   padding: 1rem;
   font-style: italic;
-  color: #ff6f91 !important;  /* Contrast color for blockquote text */
+  color: #ff6f91 !important;
 }
 
 blockquote footer {
@@ -110,12 +101,12 @@ blockquote footer {
 footer {
   margin-top: 3rem;
   text-align: center;
-  color: #ff6f91 !important;  /* Consistent contrasting color for footer */
+  color: #ff6f91 !important;
   font-size: 0.9rem;
 }
 
 a {
-  color: #ff6f91 !important;  /* Contrast color for anchor tags */
+  color: #ff6f91 !important;
 }
 
 @media screen and (max-width: 600px) {
@@ -143,7 +134,7 @@ a {
 #reviews h2 {
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #ff6f91 !important;  /* Using contrast color for reviews header */
+  color: #ff6f91 !important;
 }
 
 #reviews blockquote {
@@ -166,6 +157,7 @@ a {
   color: #ffcc00;
   font-size: 1.2em;
 }
+
 
 
 
